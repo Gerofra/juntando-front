@@ -1,0 +1,68 @@
+.profile__card {
+    width: 100%;
+    max-width: 500px;
+    background-color: var(--clear);
+    display: flex;
+    justify-content: left;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.profile__card__photo {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.profile__card__photo > img{
+    width: 100%;
+    max-width: 125px;
+    border-radius: 100%;
+    border: 3px solid transparent;
+    box-shadow: rgb(66, 147, 131) 0px 1px 4px, rgb(141, 221, 205) 0px 0px 0px 3px;
+
+}
+
+.profile__card__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-around;
+    padding: 20px 10px 12px 0;
+}
+
+.profile__card__info > div {
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.profile__card__text > h2, span, p {
+    margin: 0;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile__card__desc {
+    background: linear-gradient(170deg, rgb(135, 203, 192) 0%, rgb(108, 149, 162) 100%);
+    border-radius: 3px;
+    padding: 6px 16px;
+    color: var(--clear);
+}
+
+

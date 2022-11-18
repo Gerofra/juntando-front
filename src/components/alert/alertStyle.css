@@ -1,0 +1,27 @@
+.alert {
+    border-radius: 8px;    
+    padding: 6px 12px;
+    font-weight: 100;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.danger {
+    background-color: rgb(255, 156, 156);
+    border: 1px solid rgb(255, 169, 169);  
+}
+
+.success {
+    background-color: rgb(212, 255, 196);
+    border: 1px solid rgb(161, 255, 102);
+    color: var(--gray);
+}
+
+.info {
+    background-color: rgb(104, 197, 255);
+    border: 1px solid rgb(54, 155, 255);
+}
